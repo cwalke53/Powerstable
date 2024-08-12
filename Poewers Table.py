@@ -17,3 +17,11 @@ while True:
     else:
         print("Try again")
         break
+#Multiplication table
+number = int(input("Enter a number to create a times table: "))
+
+print(" " * 5, "1", " " * 6, "2", " " * 7, "3", " " * 8, "4")
+print(" " * 5, "_", " " * 6, "_", " " * 7, "_", " " * 8, "_")
+for num in range(1, number + 1):
+
+    print(num, "|", " ", num * 1, " " * 6, num * 2, " " * 6, num * 3, " " * 7, num * 4)
