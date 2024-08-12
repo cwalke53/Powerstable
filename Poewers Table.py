@@ -1,14 +1,14 @@
 while True:
-#Enters a number to create a table of powers
+    # Enters a number to create a table of powers
     number = int(input("Enter a number: "))
 
     print("Number", " ", "Squared", " ", "Cubed")
 
-    for num in range(1, number + 1):
+    for number in range(1, number + 1):
         print(number, " " * 6, number * number, " " * 7, number ** 3)
-#ask the user if they would like to continue
+    # ask the user if they would like to continue
     keep_going = input("Would you like to continue? Y/N: ")
-#check users response
+    # check users response
     if keep_going == "y":
         continue
     elif keep_going == "n":
@@ -17,7 +17,8 @@ while True:
     else:
         print("Try again")
         break
-#Multiplication table
+    # Multiplication table
+
 number = int(input("Enter a number to create a times table: "))
 
 print(" " * 5, "1", " " * 6, "2", " " * 7, "3", " " * 8, "4")
